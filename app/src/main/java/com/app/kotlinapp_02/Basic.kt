@@ -3,6 +3,8 @@ package com.app.kotlinapp_02
 
 var username = "RC"
 const val SPECIES = "Human"
+const val SEPARATOR = "==================== "
+const val COMMENT = "//"
 
 fun main() {
     print("Testing var in Kotlin ")
@@ -144,15 +146,11 @@ fun basic() {
 }
 
 fun newTopic(topic: String) {
-    /*
-    println()
-    print("==================== ")
-    print(topic)
-    print("==================== ")
-    println()
-    */
-    val separador = "==================== "
-    print("\n$separador $topic $separador\n")
+    print("\n$SEPARATOR $topic $SEPARATOR\n")
+}
+
+fun subTopic(subTopic: String) {
+    print("\n$COMMENT $subTopic\n")
 }
 
 
