@@ -3,7 +3,7 @@ package com.app.kotlinapp_02
 
 var username = "RC"
 const val SPECIES = "Human"
-const val SEPARATOR = "==================== "
+private const val SEPARATOR = "==================== "
 const val COMMENT = "//"
 
 fun main() {
